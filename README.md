@@ -1,0 +1,2 @@
+# Aetherius
+Python Discord Bot
