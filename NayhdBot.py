@@ -509,7 +509,7 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):
     channel = chatChannels[member.server]
-    message = 'Welcome {}!'.format(member.mention)
+    message = 'Welcome {} to {}!'.format(member.mention, member.server)
     await bot.send_message(channel, message)
 
 if __name__ == "__main__":
