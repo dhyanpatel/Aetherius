@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f1c291-d150-45e1-a79e-6e6af76f5728" name="Default" comment="" />
+    <list default="true" id="80f1c291-d150-45e1-a79e-6e6af76f5728" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NayhdBot.iml" afterPath="$PROJECT_DIR$/.idea/NayhdBot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NayhdBot.py" afterPath="$PROJECT_DIR$/NayhdBot.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,95 +20,26 @@
       <file leaf-file-name="NayhdBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NayhdBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="278">
+              <caret line="436" column="13" lean-forward="true" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="13" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <element signature="e#814#954#0" expanded="false" />
-                <element signature="e#980#1088#0" expanded="false" />
-                <element signature="e#1114#1226#0" expanded="false" />
-                <element signature="e#1282#1458#0" expanded="false" />
-                <element signature="e#1487#1914#0" expanded="false" />
-                <element signature="e#1954#2124#0" expanded="false" />
-                <element signature="e#2205#3294#0" expanded="false" />
-                <element signature="e#3375#3448#0" expanded="false" />
-                <element signature="e#8192#8822#0" expanded="false" />
-                <element signature="e#12030#12120#0" expanded="false" />
-                <element signature="e#12217#12490#0" expanded="false" />
-                <element signature="e#15558#17390#1" expanded="false" />
-                <element signature="e#17446#17771#1" expanded="false" />
-                <element signature="e#17811#17965#0" expanded="false" />
+                <element signature="e#832#972#0" expanded="false" />
+                <element signature="e#998#1106#0" expanded="false" />
+                <element signature="e#1132#1244#0" expanded="false" />
+                <element signature="e#1300#1476#0" expanded="false" />
+                <element signature="e#1505#1932#0" expanded="false" />
+                <element signature="e#1972#2142#0" expanded="false" />
+                <element signature="e#3393#3466#0" expanded="false" />
+                <element signature="e#8211#8841#0" expanded="false" />
+                <element signature="e#12049#12139#0" expanded="false" />
+                <element signature="e#12236#12509#0" expanded="false" />
+                <element signature="e#13285#13569#0" expanded="false" />
+                <element signature="e#13676#13995#0" expanded="false" />
+                <element signature="e#15924#17756#1" expanded="false" />
+                <element signature="e#17812#18137#1" expanded="false" />
+                <element signature="e#18177#18331#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
-              <caret line="162" column="87" lean-forward="false" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#4814#5372#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python3/Lib/site-packages/youtube_dl/extractor/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="515" column="73" lean-forward="false" selection-start-line="515" selection-start-column="73" selection-end-line="515" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poll.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="142" column="26" lean-forward="false" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#124#218#0" expanded="false" />
-                <marker date="1498502979899" expanded="true" signature="86:3330" ph="..." />
-                <marker date="1498502979899" expanded="true" signature="336:347" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="duckIsStupid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duckIsStupid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clearlist.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clearlist.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +67,7 @@
       <find>pollkeys</find>
       <find>answerkeys</find>
       <find>header</find>
+      <find>welcome</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,77 +122,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.6.1 (C:\Users\pratulp\AppData\Local\Programs\Python\Python3\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Aetherius" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.6.1 (C:\Users\pratulp\AppData\Local\Programs\Python\Python3\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aetherius" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.6.1 (C:\Users\pratulp\AppData\Local\Programs\Python\Python3\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aetherius" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.6.1 (C:\Users\pratulp\AppData\Local\Programs\Python\Python3\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube_dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extractor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,12 +142,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python3/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -459,19 +326,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2689295" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2689295" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -518,42 +385,27 @@
           <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/travMusic.py" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,496 +413,342 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1060,91 +758,34 @@
     <entry file="file://$PROJECT_DIR$/travMusic.py" />
     <entry file="file://$PROJECT_DIR$/.idea/music.py" />
     <entry file="file://C:/Python3/Lib/site-packages/discord/ext/commands/core.py" />
-    <entry file="file://$PROJECT_DIR$/adminlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="142" column="26" lean-forward="false" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#124#218#0" expanded="false" />
-            <marker date="1498502979899" expanded="true" signature="86:3330" ph="..." />
-            <marker date="1498502979899" expanded="true" signature="336:347" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duckIsStupid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="162" column="87" lean-forward="false" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#4814#5372#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python3/Lib/site-packages/youtube_dl/extractor/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="515" column="73" lean-forward="false" selection-start-line="515" selection-start-column="73" selection-end-line="515" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clearlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlist.txt" />
+    <entry file="file://$PROJECT_DIR$/poll.py" />
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/duckIsStupid.py" />
+    <entry file="file://$PROJECT_DIR$/music.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python3/Lib/site-packages/youtube_dl/extractor/common.py" />
+    <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="436" column="13" lean-forward="true" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="13" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#814#954#0" expanded="false" />
-            <element signature="e#980#1088#0" expanded="false" />
-            <element signature="e#1114#1226#0" expanded="false" />
-            <element signature="e#1282#1458#0" expanded="false" />
-            <element signature="e#1487#1914#0" expanded="false" />
-            <element signature="e#1954#2124#0" expanded="false" />
-            <element signature="e#2205#3294#0" expanded="false" />
-            <element signature="e#3375#3448#0" expanded="false" />
-            <element signature="e#8192#8822#0" expanded="false" />
-            <element signature="e#12030#12120#0" expanded="false" />
-            <element signature="e#12217#12490#0" expanded="false" />
-            <element signature="e#15558#17390#1" expanded="false" />
-            <element signature="e#17446#17771#1" expanded="false" />
-            <element signature="e#17811#17965#0" expanded="false" />
+            <element signature="e#832#972#0" expanded="false" />
+            <element signature="e#998#1106#0" expanded="false" />
+            <element signature="e#1132#1244#0" expanded="false" />
+            <element signature="e#1300#1476#0" expanded="false" />
+            <element signature="e#1505#1932#0" expanded="false" />
+            <element signature="e#1972#2142#0" expanded="false" />
+            <element signature="e#3393#3466#0" expanded="false" />
+            <element signature="e#8211#8841#0" expanded="false" />
+            <element signature="e#12049#12139#0" expanded="false" />
+            <element signature="e#12236#12509#0" expanded="false" />
+            <element signature="e#13285#13569#0" expanded="false" />
+            <element signature="e#13676#13995#0" expanded="false" />
+            <element signature="e#15924#17756#1" expanded="false" />
+            <element signature="e#17812#18137#1" expanded="false" />
+            <element signature="e#18177#18331#0" expanded="false" />
           </folding>
         </state>
       </provider>

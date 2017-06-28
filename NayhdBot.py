@@ -21,6 +21,7 @@ bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
 api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
 service = build('youtube', 'v3', developerKey=api_key)
+chatChannels = {}
 
 
 
@@ -113,6 +114,7 @@ async def weather(ctx, *, place : str):
 async def ping(ctx):
     await bot.send_typing(ctx.message.channel)
     await bot.say(box('Pong'))
+
 
 
 @bot.command(pass_context = True, aliases = ['Clever','cleverbot','Cleverbot'])
@@ -369,6 +371,16 @@ async def cat(ctx, num: int = 1):
             for link in urllist:
                 await bot.say(link)
 
+@bot.command(pass_context = True)
+async def welcome(ctx):
+    admins = open('adminlist.txt').read().splitlines()
+    if ctx.message.author.id in admins:
+        pass
+    else:
+        await bot.say("You're not authorized")
+        return
+    chatChannels[ctx.message.server] = ctx.message.channel
+    await bot.say('Default Welcome Channel Set!')
 
 @bot.command(pass_context = True)
 async def spam(ctx, times : int = 1, *, statement : str = "Spam"):
@@ -493,6 +505,12 @@ async def smbc():
 async def on_ready():
     print(("Logged in as \n{}\n{}\n-------").format(bot.user.name, bot.user.id))
     await bot.change_presence(game=discord.Game(name='Beating up Apparatus'))
+
+@bot.event
+async def on_member_join(member):
+    channel = chatChannels[member.server]
+    message = 'Welcome {}!'.format(member.nick)
+    await bot.send_message(channel, message)
 
 if __name__ == "__main__":
     bot.run('MzI5NDU0NDczNTk0NDA0ODY2.DDSr5Q.yp-HzJV1Ig4VB6_2SWE1nJGG044')
