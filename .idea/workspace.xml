@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f1c291-d150-45e1-a79e-6e6af76f5728" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NayhdBot.iml" afterPath="$PROJECT_DIR$/.idea/NayhdBot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NayhdBot.py" afterPath="$PROJECT_DIR$/NayhdBot.py" />
     </list>
@@ -20,8 +18,8 @@
       <file leaf-file-name="NayhdBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NayhdBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="436" column="13" lean-forward="true" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="13" />
+            <state relative-caret-position="482">
+              <caret line="509" column="33" lean-forward="true" selection-start-line="509" selection-start-column="33" selection-end-line="509" selection-end-column="33" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
                 <element signature="e#832#972#0" expanded="false" />
@@ -767,8 +765,8 @@
     <entry file="file://$PROJECT_DIR$/clearlist.txt" />
     <entry file="file://$PROJECT_DIR$/NayhdBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="436" column="13" lean-forward="true" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="13" />
+        <state relative-caret-position="482">
+          <caret line="509" column="33" lean-forward="true" selection-start-line="509" selection-start-column="33" selection-end-line="509" selection-end-column="33" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <element signature="e#832#972#0" expanded="false" />
