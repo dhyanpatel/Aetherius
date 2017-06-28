@@ -16,7 +16,7 @@ from poll import Poll
 
 owm = pyowm.OWM('3efe1d1446293d1db9d885956d91ebf5')
 cw = CleverWrap('CC28sjh2gAso-_swa8qaAIREAPw')
-bot = commands.Bot(command_prefix='!', description='NayhdBot')
+bot = commands.Bot(command_prefix='+', description='NayhdBot')
 bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
 api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
@@ -495,4 +495,4 @@ async def on_ready():
     await bot.change_presence(game=discord.Game(name='Beating up Apparatus'))
 
 if __name__ == "__main__":
-    bot.run('MjgyNjA2MjY2NjYzMzA1MjM2.DBj9LQ.KSOktMdvB6flDS0Bv5hXqXQhVBg')
+    bot.run('MzI5NDU0NDczNTk0NDA0ODY2.DDSr5Q.yp-HzJV1Ig4VB6_2SWE1nJGG044')
