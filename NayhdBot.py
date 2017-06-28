@@ -12,6 +12,7 @@ from ctypes.util import find_library
 from apiclient.errors import HttpError
 from discord.ext.commands.errors import CommandNotFound
 from poll import Poll
+import time
 
 
 owm = pyowm.OWM('3efe1d1446293d1db9d885956d91ebf5')
@@ -113,7 +114,11 @@ async def weather(ctx, *, place : str):
 @bot.command(pass_context = True, aliases = ['Ping'])
 async def ping(ctx):
     await bot.send_typing(ctx.message.channel)
-    await bot.say(box('Pong'))
+    startTime = time.monotonic()
+    await (await bot.ws.ping())
+    endTime = time.monotonic()
+    ping = endTime - startTime
+    await bot.say('The server response time was {}ms'.format(ping))
 
 
 
