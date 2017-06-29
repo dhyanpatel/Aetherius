@@ -117,8 +117,8 @@ async def ping(ctx):
     startTime = time.monotonic()
     await (await bot.ws.ping())
     endTime = time.monotonic()
-    ping = (endTime - startTime) * 100
-    await bot.say('The server response time was {}ms'.format(ping))
+    ping = (endTime - startTime) * 1000
+    await bot.say('The server response time was {}ms'.format(int(ping)))
 
 
 @bot.command(pass_context = True, aliases = ['Clever','cleverbot','Cleverbot'])
