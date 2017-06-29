@@ -18,7 +18,7 @@ import time
 
 owm = pyowm.OWM('3efe1d1446293d1db9d885956d91ebf5')
 cw = CleverWrap('CC28sjh2gAso-_swa8qaAIREAPw')
-bot = commands.Bot(command_prefix='+', description='NayhdBot')
+bot = commands.Bot(command_prefix='+', description='Aetherius')
 bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
 bot.add_cog(Recruitment(bot))
@@ -514,7 +514,7 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):
     channel = chatChannels[member.server]
-    message = 'Welcome {} to {}!'.format(member.mention, member.server)
+    message = 'Welcome {} to {}! If You Want to Apply Please Type in +recruit in #recruit_applications.'.format(member.mention, member.server)
     await bot.send_message(channel, message)
 
 if __name__ == "__main__":
