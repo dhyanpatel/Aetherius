@@ -11,7 +11,7 @@ class Recruitment:
 
         #IGN
         await self.bot.send_typing(ctx.message.channel)
-        await self.bot.say('Hi {}! Glad to see you want to apply to join the guild!'.format(ctx.message.author))
+        await self.bot.say('Hi {}! Glad to see you want to apply to join the guild!'.format(ctx.message.author.mention))
         await self.bot.send_typing(ctx.message.channel)
         embedded = discord.Embed(color = discord.Color.dark_grey())
         embedded.add_field(name = 'IGN',
