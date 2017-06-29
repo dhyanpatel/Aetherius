@@ -87,7 +87,7 @@ class Recruitment:
         embedded = discord.Embed(color = discord.Color.green())
         embedded.add_field(
             name = 'IGN',
-            value = ign
+            value = ign.content
         )
         embedded.add_field(
             name='Rank',
@@ -95,30 +95,30 @@ class Recruitment:
         )
         embedded.add_field(
             name='Experience',
-            value = experience
+            value = experience.content
         )
         embedded.add_field(
             name='Voice Chat',
-            value= voice_chat
+            value= voice_chat.content
         )
         embedded.add_field(
             name='Wins',
-            value= wins
+            value= wins.content
         )
         embedded.add_field(
             name='Activity on Discord',
-            value=discord_activity
+            value=discord_activity.content
         )
         embedded.add_field(
             name='Role',
-            value=role
+            value=role.content
         )
         embedded.add_field(
             name='Age',
-            value=age
+            value=age.content
         )
         embedded.add_field(
             name='Game Activity',
-            value=activity
+            value=activity.content
         )
         await self.bot.say(embed = embedded)
