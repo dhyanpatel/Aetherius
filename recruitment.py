@@ -91,7 +91,7 @@ class Recruitment:
         )
         embedded.add_field(
             name='Rank',
-            value= rank
+            value= rank.content
         )
         embedded.add_field(
             name='Experience',
