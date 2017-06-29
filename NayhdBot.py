@@ -12,6 +12,7 @@ from ctypes.util import find_library
 from apiclient.errors import HttpError
 from discord.ext.commands.errors import CommandNotFound
 from poll import Poll
+from recruitment import Recruitment
 import time
 
 
@@ -20,6 +21,7 @@ cw = CleverWrap('CC28sjh2gAso-_swa8qaAIREAPw')
 bot = commands.Bot(command_prefix='+', description='NayhdBot')
 bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
+bot.add_cog(Recruitment(bot))
 api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
 service = build('youtube', 'v3', developerKey=api_key)
 chatChannels = {}
@@ -375,6 +377,7 @@ async def cat(ctx, num: int = 1):
 
 @bot.command(pass_context = True)
 async def welcome(ctx):
+    await bot.send_typing(ctx.message.channel)
     admins = open('adminlist.txt').read().splitlines()
     if ctx.message.author.id in admins:
         pass
