@@ -117,9 +117,8 @@ async def ping(ctx):
     startTime = time.monotonic()
     await (await bot.ws.ping())
     endTime = time.monotonic()
-    ping = endTime - startTime
+    ping = (endTime - startTime) * 100
     await bot.say('The server response time was {}ms'.format(ping))
-
 
 
 @bot.command(pass_context = True, aliases = ['Clever','cleverbot','Cleverbot'])
@@ -147,9 +146,7 @@ async def urban(ctx, *, input: str):
             url = json['list'][0]['permalink'],
             color = discord.Color.gold()
         )
-        embedded.set_author(
-
-        )
+        #embedded.set_author()
         embedded.add_field(
             name = 'Definition',
             value = json['list'][0]['definition'],
