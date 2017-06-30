@@ -514,7 +514,7 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):
     channel = chatChannels[member.server]
-    message = 'Welcome {} to {}! If You Want to Apply Please Type in +recruit in #recruit_applications.'.format(member.mention, member.server)
+    message = 'Welcome {} to {}! If You Want to Apply Please Type in +recruit in <#321715129789972483>.'.format(member.mention, member.server)
     await bot.send_message(channel, message)
 
 if __name__ == "__main__":
