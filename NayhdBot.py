@@ -209,6 +209,7 @@ async def clear(ctx, number : int = 50):
             return
 
         deleted = await bot.purge_from(ctx.message.channel, limit = number+1)
+        await bot.say('{} has cleared {} messages'.format(ctx.message.author, number))
         #await bot.send_message(ctx.message.channel, 'Deleted {} message(s)'.format(len(deleted)))
     except Exception as e:
         print(e)
