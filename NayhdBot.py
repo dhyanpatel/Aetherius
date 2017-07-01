@@ -204,7 +204,7 @@ async def clear(ctx, number : int = 50):
             await bot.say("You're not authorized")
             return
 
-        deleted = await bot.purge_from(ctx.message.channel, limit = number)
+        deleted = await bot.purge_from(ctx.message.channel, limit = number+1)
         #await bot.send_message(ctx.message.channel, 'Deleted {} message(s)'.format(len(deleted)))
     except Exception as e:
         print(e)

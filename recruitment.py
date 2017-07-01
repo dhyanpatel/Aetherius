@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord.errors import HTTPException
 
 class Recruitment:
 
@@ -25,11 +26,21 @@ class Recruitment:
         await self.bot.send_typing(ctx.message.channel)
         embedded = discord.Embed(color=discord.Color.dark_grey())
         embedded.add_field(name = 'Rank',
-                           value = 'What Rank were you in Spring Season 2017?\n(You must be higher than Tier 7 and provide a picture of proof')
+                           value = 'What Rank were you in Spring Season 2017?\n(You must be higher than Tier 7)')
         one = await self.bot.say(embed = embedded)
         rank = await self.bot.wait_for_message(author = ctx.message.author)
         await self.bot.delete_message(one)
         await self.bot.delete_message(rank)
+
+        #Rank Picture
+        await self.bot.send_typing(ctx.message.channel)
+        embedded = discord.Embed(color = discord.Color.dark_grey())
+        embedded.add_field(name = 'Rank Picture',
+                           value = 'Please send a picture of your Ranked Trophy from Spring Season 2017.')
+        one = await self.bot.say(embed = embedded)
+        rank_pic = await self.bot.wait_for_message(author = ctx.message.author)
+        await self.bot.delete_message(one)
+        await self.bot.delete_message(rank_pic)
 
         #Experience
         await self.bot.send_typing(ctx.message.channel)
@@ -140,4 +151,9 @@ class Recruitment:
             name='Game Activity',
             value=activity.content
         )
-        await self.bot.say(embed = embedded)
+        embedded.image = rank_pic
+        #embedded.set_footer(text = 'Thank you for applying! Please post a picture of your highest Skill Tier.')
+        try:
+            await self.bot.say(embed = embedded)
+        except HTTPException:
+            await self.bot.say('Please try again, and keep all responses in text file. No pictures.')
