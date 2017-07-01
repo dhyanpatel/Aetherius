@@ -192,6 +192,10 @@ async def youtube(ctx, *, search : str = 'https://www.youtube.com/watch?v=id45kD
             except Exception:
                 await bot.say("Sorry, something went wrong.")
 
+@bot.command(pass_context = True)
+async def lfg(ctx):
+    message = '{}, {} is looking for a party!'.format('<@&321091617245233154>', ctx.message.author.mention)
+    await bot.say(message)
 
 @bot.command(pass_context = True, aliases = ['Clear','wipe','Wipe'])
 async def clear(ctx, number : int = 50):
