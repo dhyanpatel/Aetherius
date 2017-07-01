@@ -3,13 +3,17 @@ from discord.ext import commands
 from discord.errors import HTTPException
 
 class Recruitment:
+    """Used for Guild Recruitment
+    Particularly for Legendary HQ
+    TODO: Let channels choose their own questions. Add Role after recruitment Passed.
+    """
 
     def __init__(self,bot):
         self.bot = bot
 
     @commands.command(pass_context = True)
     async def recruit(self, ctx):
-
+        """Initial Command to start recruitment."""
         #IGN
         await self.bot.send_typing(ctx.message.channel)
         await self.bot.say('Hi {}! Glad to see you want to apply to join the guild!'.format(ctx.message.author.mention))
@@ -21,7 +25,6 @@ class Recruitment:
         ign = await self.bot.wait_for_message(author=ctx.message.author)
         await self.bot.delete_message(one)
         await self.bot.delete_message(ign)
-
         #Rank
         await self.bot.send_typing(ctx.message.channel)
         embedded = discord.Embed(color=discord.Color.dark_grey())
@@ -151,7 +154,10 @@ class Recruitment:
             name='Game Activity',
             value=activity.content
         )
-        embedded.set_image(url = rank_pic.attachments[0]['url'])
+        try:
+            embedded.set_image(url = rank_pic.attachments[0]['url'])
+        except Exception:
+            embedded.set_image(url = rank_pic.content)
         #embedded.set_footer(text = 'Thank you for applying! Please post a picture of your highest Skill Tier.')
         try:
             await self.bot.say(embed = embedded)

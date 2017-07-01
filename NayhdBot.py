@@ -83,6 +83,8 @@ def get_youtube_vid_link(search):
 
 @bot.command(pass_context = True)
 async def weather(ctx, *, place : str):
+    """Returns weather in area based off Search Terms.
+    Made thanks to OWM and PyOWM"""
     try:
         observation = owm.weather_at_place(place)
         location, weather = observation.get_location().get_name() , observation.get_weather()
@@ -115,6 +117,7 @@ async def weather(ctx, *, place : str):
 
 @bot.command(pass_context = True, aliases = ['Ping'])
 async def ping(ctx):
+    """Pings the Discord servers and returns the response time."""
     await bot.send_typing(ctx.message.channel)
     startTime = time.monotonic()
     await (await bot.ws.ping())
@@ -125,12 +128,16 @@ async def ping(ctx):
 
 @bot.command(pass_context = True, aliases = ['Clever','cleverbot','Cleverbot'])
 async def clever(ctx, *, input: str):
+    """Accesses the CleverbotAPI and let's the user talk to Cleverbot.
+    Made thanks to Cleverbot and Cleverwrap"""
     await bot.send_typing(ctx.message.channel)
     embedded = discord.Embed(title = cw.say(input), color = discord.Color.gold())
     await bot.say(embed = embedded)
 
 @bot.command(pass_context = True)
 async def urban(ctx, *, input: str):
+    """Accesses the Urban Dictionary API and returns the definition of the user's search.
+    Made thanks to Urban Dictionary"""
     try:
         url = 'https://mashape-community-urban-dictionary.p.mashape.com/define'
         parameters = {
@@ -171,6 +178,9 @@ async def urban(ctx, *, input: str):
 
 @bot.command(pass_context = True, aliases = ['Youtube','you','You'])
 async def youtube(ctx, *, search : str = 'https://www.youtube.com/watch?v=id45kDNdXzA'):
+    """Uses the YoutubeAPI to return the Video/Playlist/Channel of the user's search.
+    Get's the first result of the search.
+    Made thanks to YoutubeAPI and their wrapper"""
     try:
         await bot.send_typing(ctx.message.channel)
         youtubeLink = get_youtube_vid_link(search)
@@ -194,11 +204,16 @@ async def youtube(ctx, *, search : str = 'https://www.youtube.com/watch?v=id45kD
 
 @bot.command(pass_context = True)
 async def lfg(ctx):
+    """Specifically for The Legendary HQ guild.
+    Allows users to find people to play with."""
     message = '{}, {} is looking for a party!'.format('<@&321091617245233154>', ctx.message.author.mention)
     await bot.say(message)
 
 @bot.command(pass_context = True, aliases = ['Clear','wipe','Wipe'])
-async def clear(ctx, number : int = 50):
+async def clear(ctx, number : int = 0):
+    """Clears the chat channel based off how the number the user inputs.
+    Defaults to 0 clears unless a number is specified.
+    """
     try:
         clearlist = open('clearlist.txt', 'r').read().splitlines()
         if ctx.message.author.id in clearlist:
@@ -219,6 +234,8 @@ async def clear(ctx, number : int = 50):
 
 @bot.command(pass_context = True, aliases = ['mobcrush','Mob','Mobcrush'])
 async def mob(ctx, name: str = 'mobcrush'):
+    """Gets info about Mobcrush streamers
+    Made thanks to the Mobcrush wrapper."""
     # Finds info about a streamer
     try:
         await bot.send_typing(ctx.message.channel)
@@ -244,6 +261,7 @@ async def mob(ctx, name: str = 'mobcrush'):
 
 @bot.command(pass_context = True, aliases = ['Channelinfo','channel','Channel'])
 async def channelinfo(ctx):
+    """Gets info about the Discord channel"""
     try:
         await bot.send_typing(ctx.message.channel)
         embedded = discord.Embed(color = discord.Color.gold())
@@ -270,6 +288,8 @@ async def channelinfo(ctx):
 
 @bot.command(pass_context = True, aliases = ['Mobrecent','Mobcrushrecent','mobcrushrecent'])
 async def mobrecent(ctx, name: str = 'mobcrush'):
+    """Gets info about specified Mobcrush streamers' most recent streams
+    Made thanks to Mobcrush wrapper"""
     try:
         await bot.send_typing(ctx.message.channel)
         streamer = mobcrush.streamer(name)
@@ -291,6 +311,7 @@ async def mobrecent(ctx, name: str = 'mobcrush'):
 
 @bot.command(pass_context = True, aliases = ['Say', 'repeat','Repeat'])
 async def say(ctx, *, usertext : str):
+    """Repeats what the user said."""
     if ctx.message.author.id == '282606266663305236': #Makes sure bot doesn't respond to itself
         return
     else:
@@ -305,6 +326,7 @@ async def say(ctx, *, usertext : str):
 
 @bot.command(pass_context = True)
 async def adminsay(ctx, *,usertext : str):
+    """For admins. Repeats user's input without an Embed"""
     adminlist = open('adminlist.txt','r').read().splitlines()
     try:
         await bot.send_typing(ctx.message.channel)
@@ -321,6 +343,7 @@ async def adminsay(ctx, *,usertext : str):
 
 @bot.command(pass_context = True, aliases = ['Rate'])
 async def rate(ctx, *, usertext : str = 'NayhdBot'):
+    """Generates a random number to \"rate\" something"""
     await bot.send_typing(ctx.message.channel)
     if usertext == 'NayhdBot':
         embedded = discord.Embed(color=discord.Color.gold())
@@ -345,12 +368,15 @@ async def rate(ctx, *, usertext : str = 'NayhdBot'):
 
 @bot.command(pass_context = True, aliases = ['XKCD','xckd','xdck','kxcd','kxdc'])
 async def xkcd(ctx):
+    """Gets a random xkcd comic"""
     await bot.send_typing(ctx.message.channel)
     await bot.say(get_xkcd_url(get_xkcd_num()))
 
 
 @bot.command(pass_context = True, aliases = ['logout','logoff'])
 async def shutdown(ctx):
+    """Admin Only
+    Shuts down the bot."""
     await bot.send_typing(ctx.message.channel)
     admins = open('adminlist.txt','r').read().splitlines()
     if ctx.message.author.id in admins:
@@ -362,6 +388,8 @@ async def shutdown(ctx):
 
 @bot.command(pass_context=True, aliases=['eric', 'cats', 'Cat', 'Eric'])
 async def cat(ctx, num: int = 1):
+    """Gets a random Cat picture.
+    Made thanks to The Cat API"""
     await bot.send_typing(ctx.message.channel)
     adminlist = open('adminlist.txt', 'r').read().splitlines()
     if ctx.message.author.id in adminlist:
@@ -382,6 +410,7 @@ async def cat(ctx, num: int = 1):
 
 @bot.command(pass_context = True)
 async def welcome(ctx):
+    """Sets the default Welcome channel for new users to be welcomed in"""
     await bot.send_typing(ctx.message.channel)
     admins = open('adminlist.txt').read().splitlines()
     if ctx.message.author.id in admins:
@@ -394,6 +423,8 @@ async def welcome(ctx):
 
 @bot.command(pass_context = True)
 async def spam(ctx, times : int = 1, *, statement : str = "Spam"):
+    """Admins Only
+    Spam's the user's message for <int> times."""
     adminlist = open('adminlist.txt').read().splitlines()
     if ctx.message.author.id in adminlist:
         for step in range(times):
@@ -405,6 +436,8 @@ async def spam(ctx, times : int = 1, *, statement : str = "Spam"):
 
 @bot.command(pass_context = True)
 async def draft(ctx, ign : str = 'dpp2000', region: str = 'na'):
+    """Gets Vainglory draft info
+    Doesn't work unless player's most recent match was a Ranked or Private Draft"""
     try:
         dpp_api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMWYzZjQzMC0xYjNkLTAxMzUtMGQ5ZC0wMjQyYWMxMTAwMDciLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNDk0ODEyNTI4LCJwdWIiOiJzZW1jIiwidGl0bGUiOiJ2YWluZ2xvcnkiLCJhcHAiOiJhMWYyYmY3MC0xYjNkLTAxMzUtMGQ5Yi0wMjQyYWMxMTAwMDciLCJzY29wZSI6ImNvbW11bml0eSIsImxpbWl0IjoxMH0.Fc2IQwIkmVp8RfJ7bsmp_DWgEse7tS6y8BXMBiTIuIY'
         try:
@@ -497,7 +530,7 @@ async def volume(ctx, level : int = 100.0):
     await bot.say('Set volume to {}%'.format(level))
 '''
 
-#Unusable because of inconsistent file naming by SMBC
+#Unusable because of inconsistent file naming
 '''
 @bot.command(aliases = ['Smbc', 'sbmc','msbc','smcb'])
 async def smbc():
