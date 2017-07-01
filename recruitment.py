@@ -151,7 +151,7 @@ class Recruitment:
             name='Game Activity',
             value=activity.content
         )
-        embedded.image = rank_pic
+        embedded.image = rank_pic.content
         #embedded.set_footer(text = 'Thank you for applying! Please post a picture of your highest Skill Tier.')
         try:
             await self.bot.say(embed = embedded)
