@@ -13,6 +13,7 @@ from apiclient.errors import HttpError
 from discord.ext.commands.errors import CommandNotFound
 from poll import Poll
 from recruitment import Recruitment
+from toxic import Toxic
 import time
 
 
@@ -22,8 +23,9 @@ bot = commands.Bot(command_prefix='+', description='Aetherius')
 bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
 bot.add_cog(Recruitment(bot))
-api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
-service = build('youtube', 'v3', developerKey=api_key)
+bot.add_cog(Toxic(bot))
+yt_api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
+service = build('youtube', 'v3', developerKey=yt_api_key)
 chatChannels = {}
 
 
@@ -435,7 +437,7 @@ async def spam(ctx, times : int = 1, *, statement : str = "Spam"):
         await bot.say('Yeah... No')
 
 @bot.command(pass_context = True)
-async def draft(ctx, ign : str = 'dpp2000', region: str = 'na'):
+async def draft(ctx, ign : str = 'Aethen', region: str = 'na'):
     """Gets Vainglory draft info
     Doesn't work unless player's most recent match was a Ranked or Private Draft"""
     try:
@@ -556,4 +558,7 @@ async def on_member_join(member):
     await bot.send_message(channel, message)
 
 if __name__ == "__main__":
-    bot.run('MzI5NDU0NDczNTk0NDA0ODY2.DDSr5Q.yp-HzJV1Ig4VB6_2SWE1nJGG044')
+    bot.run('MjgyNjA2MjY2NjYzMzA1MjM2.DDmG8Q.whKi5jITcxh4ZJNlM6UsG5nJvJs')
+
+#NayhdBot Token - MjgyNjA2MjY2NjYzMzA1MjM2.DDmG8Q.whKi5jITcxh4ZJNlM6UsG5nJvJs
+#Aetherius Token - MzI5NDU0NDczNTk0NDA0ODY2.DDSr5Q.yp-HzJV1Ig4VB6_2SWE1nJGG044
