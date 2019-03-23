@@ -17,14 +17,14 @@ from toxic import Toxic
 import time
 
 
-owm = pyowm.OWM('3efe1d1446293d1db9d885956d91ebf5')
-cw = CleverWrap('CC28sjh2gAso-_swa8qaAIREAPw')
+owm = pyowm.OWM('Removed for Obvious Reasons')
+cw = CleverWrap('Removed for Obvious Reasons')
 bot = commands.Bot(command_prefix='+', description='Aetherius')
 bot.add_cog(Music(bot))
 bot.add_cog(Poll(bot))
 bot.add_cog(Recruitment(bot))
 bot.add_cog(Toxic(bot))
-yt_api_key = 'AIzaSyAiQXR2zB7MKJLKu-Wb2h6GLzyyEK8Veck'
+yt_api_key = 'Removed for Obvious Reasons'
 service = build('youtube', 'v3', developerKey=yt_api_key)
 chatChannels = {}
 
@@ -62,7 +62,7 @@ def get_xkcd_url(maxnum):
 def get_cat_link(num):
     url = 'http://thecatapi.com/api/images/get'
     parameters = {
-        'api_key': 'MTkxMDQz',
+        'api_key': 'Removed for Obvious Reasons',
         'format': 'html',
         'type': 'png',
         'results_per_page': str(num)
@@ -146,7 +146,7 @@ async def urban(ctx, *, input: str):
             'term':input
         }
         headers = {
-            "X-Mashape-Key": "cUUxNDHnECmsh9142gYgZNRCIVSlp1BBt5GjsnB5ijViJLZJuJ",
+            "X-Mashape-Key": "Removed for Obvious Reasons",
             "Accept": "text/plain"
         }
         response = requests.get(url, params=parameters, headers = headers)
@@ -441,7 +441,7 @@ async def draft(ctx, ign : str = 'Aethen', region: str = 'na'):
     """Gets Vainglory draft info
     Doesn't work unless player's most recent match was a Ranked or Private Draft"""
     try:
-        dpp_api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMWYzZjQzMC0xYjNkLTAxMzUtMGQ5ZC0wMjQyYWMxMTAwMDciLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNDk0ODEyNTI4LCJwdWIiOiJzZW1jIiwidGl0bGUiOiJ2YWluZ2xvcnkiLCJhcHAiOiJhMWYyYmY3MC0xYjNkLTAxMzUtMGQ5Yi0wMjQyYWMxMTAwMDciLCJzY29wZSI6ImNvbW11bml0eSIsImxpbWl0IjoxMH0.Fc2IQwIkmVp8RfJ7bsmp_DWgEse7tS6y8BXMBiTIuIY'
+        dpp_api_key = 'Removed for Obvious Reasons'
         try:
             api = gamelocker.Vainglory(dpp_api_key)
         except Exception as e:
@@ -558,7 +558,7 @@ async def on_member_join(member):
     await bot.send_message(channel, message)
 
 if __name__ == "__main__":
-    bot.run('MjgyNjA2MjY2NjYzMzA1MjM2.DDmG8Q.whKi5jITcxh4ZJNlM6UsG5nJvJs')
+    bot.run('Removed for Obvious Reasons')
 
-#NayhdBot Token - MjgyNjA2MjY2NjYzMzA1MjM2.DDmG8Q.whKi5jITcxh4ZJNlM6UsG5nJvJs
-#Aetherius Token - MzI5NDU0NDczNTk0NDA0ODY2.DDSr5Q.yp-HzJV1Ig4VB6_2SWE1nJGG044
+#NayhdBot Token - Removed for Obvious Reasons
+#Aetherius Token - Removed for Obvious Reasons
